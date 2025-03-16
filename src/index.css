@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+body {
+    background: linear-gradient(to bottom, rgb(10, 16, 31) 50%, rgba(0,0,0, 1));
+}
+
+.yo {
+    border-image: fill 9 linear-gradient(rgba(0, 0, 0, 0.2), #000000);
+}
+
+.yoyo{
+    filter: brightness(1.6);
+    /* border-image: fill 9 linear-gradient(rgba(10, 16, 31, 0.1), #1b1b1b); */
+}
+
+.deco{
+    text-decoration: none;
+    background-color: red;
+}
