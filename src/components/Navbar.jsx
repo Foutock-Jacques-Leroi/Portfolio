@@ -55,9 +55,9 @@ const Navbar = () => {
                         <li className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-orange-400'>Projects <AiFillProject size={25} /></li>
                         <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-white'>About <AiFillDashboard size={25} />
                             <ul className={about ? 'absolute flex flex-col  top-10 p-2 left-0 h-auto w-fit [&_li]:ml-8 transition-all duration-900' : 'fixed left-[-500px] top-18'} >
-                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'>Academic Life</li>
-                                <li onClick={() => handleAbout()} className='p-1 border-b-[3px] border-white mx-auto'>Proffesional Life</li>
-                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'>Hobbies</li>
+                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'>Education</li>
+                                <li onClick={() => handleAbout()} className='p-1 border-b-[3px] border-white mx-auto'>Work Experience</li>
+                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'>Me</li>
                             </ul>
                         </li>
 

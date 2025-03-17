@@ -4,6 +4,8 @@ import Letter from './components/Letter'
 import EntryText from './components/EntryText'
 import Technologies from './components/Technologies'
 import Strengths from './components/Strengths'
+import AboutMe from './components/AboutMe'
+import Education from './components/Education'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <EntryText />
       <Technologies />
       <Strengths />
+      <AboutMe />
+      <Education />
       <Letter />
     </div>
 

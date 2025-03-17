@@ -15,6 +15,10 @@ body {
 .yo {
     border-image: fill 9 linear-gradient(rgba(0, 0, 0, 0.2), #000000);
 }
+.sp{
+    font-family: freestyle script;
+    letter-spacing: 3px;
+}
 
 .yoyo{
     filter: brightness(1.6);
