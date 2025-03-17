@@ -6,6 +6,7 @@ import Technologies from './components/Technologies'
 import Strengths from './components/Strengths'
 import AboutMe from './components/AboutMe'
 import Education from './components/Education'
+import WorkExperience from './components/WorkExperience'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Strengths />
       <AboutMe />
       <Education />
+      <WorkExperience />
       <Letter />
     </div>
 

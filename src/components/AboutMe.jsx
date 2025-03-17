@@ -10,9 +10,9 @@ import React from 'react'
 
 function AboutMe() {
     return (
-        <div className='w-full min-h-full'>
+        <div className='w-full min-h-full' id='aboutme'>
             <div className='text-white font-sans py-4 px-6 grid sm:grid-cols-2 grid-cols-1 w-full sm:w-[80%] mx-auto justify-center items-center '>
-                <div className='m-4 text-center'>
+                <div className='m-4 text-center' >
                     <h1 className='md:text-6xl sm:text-5xl text-4xl sp font-extrabold bg-clip-text bg-gradient-to-l from-white to-green-400 text-transparent'>Introducing </h1>
                     <h1 className=' md:text-6xl mb-4 sm:text-5xl text-4xl sp font-extrabold bg-clip-text bg-gradient-to-l from-white to-teal-200 text-transparent'>Myself</h1>
                     <p className='text-wrap px-4 md:text-xl sm:text-xl text-lg '><span>I</span> am a smart working guy who is in love with comprehensive and open minded ideas on intresting

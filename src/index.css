@@ -9,23 +9,30 @@
 
 
 body {
-    background: linear-gradient(to bottom, rgb(10, 16, 31) 50%, rgba(0,0,0, 1));
+    background: linear-gradient(to bottom, rgb(10, 16, 31) 50%, rgba(0, 0, 0, 1));
+
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all, 5s linear;
 }
 
 .yo {
     border-image: fill 9 linear-gradient(rgba(0, 0, 0, 0.2), #000000);
 }
-.sp{
+
+.sp {
     font-family: freestyle script;
     letter-spacing: 3px;
 }
 
-.yoyo{
+.yoyo {
     filter: brightness(1.6);
     /* border-image: fill 9 linear-gradient(rgba(10, 16, 31, 0.1), #1b1b1b); */
 }
 
-.deco{
+.deco {
     text-decoration: none;
     background-color: red;
 }

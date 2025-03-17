@@ -12,7 +12,7 @@ import { ReactTyped } from 'react-typed'
 const EntryText = () => {
 
     return (
-        <div className='p-8 px-24 w-full bg-codeImg object-cover yo'>
+        <div className='p-8 px-24 w-full bg-codeImg object-cover yo' id="home">
             <div className='flex flex-col w-full h-[95vh] px-4 py-2 mt-16'>
 
                 <div className='overflow-hidden mx-auto rounded-full'>
