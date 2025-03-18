@@ -3,10 +3,10 @@ import Navbar from './components/Navbar'
 import Letter from './components/Letter'
 import EntryText from './components/EntryText'
 import Technologies from './components/Technologies'
-import Strengths from './components/Strengths'
 import AboutMe from './components/AboutMe'
 import Education from './components/Education'
 import WorkExperience from './components/WorkExperience'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -16,10 +16,10 @@ function App() {
       <Navbar />
       <EntryText />
       <Technologies />
-      <Strengths />
       <AboutMe />
       <Education />
       <WorkExperience />
+      <Projects />
       <Letter />
     </div>
 

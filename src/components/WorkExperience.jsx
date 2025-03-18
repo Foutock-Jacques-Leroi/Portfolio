@@ -19,7 +19,7 @@ const WorkExperience = () => {
 
 
                     <div className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-green-400 p-20 text-black'>
-                        <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>Monetising TikTok Accounts</h1>
+                        <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold text-center'>Monetising TikTok Accounts</h1>
                     </div>
                     <div className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-teal-400 p-20 text-black'>
                         <h1 className=' animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>Content Creation</h1>
@@ -28,10 +28,10 @@ const WorkExperience = () => {
                         <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>E-Business</h1>
                     </div>
                     <div className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-slate-400 p-20 text-black'>
-                        <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>Internship At <span className='animate-bounce text-red-400 sp md:text-4xl sm:text-3xl text-2xl font-extrabold'>SKY NETWORK SERVICE</span></h1>
+                        <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold text-center'>Internship At <span className='animate-bounce text-red-400 sp md:text-4xl sm:text-3xl text-2xl font-extrabold'>SKY NETWORK SERVICE</span></h1>
                     </div>
                     <div className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-purple-400 p-20 text-black'>
-                        <h1 className='md:text-3xl sm:text-2xl text-xl font-bold animate-bounce'>Worker In A Hardware Store</h1>
+                        <h1 className='md:text-3xl sm:text-2xl text-xl font-bold animate-bounce text-center'>Worker In A Hardware Store</h1>
                     </div>
 
 
