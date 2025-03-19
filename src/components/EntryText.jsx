@@ -12,7 +12,7 @@ import { ReactTyped } from 'react-typed'
 const EntryText = () => {
 
     return (
-        <div className='p-8 px-24 w-full   object-cover yo border-none bg-codeImg' id="home">
+        <div className='p-8 px-24 w-full object-cover yo border-none bg-codeImg' id="home">
             {/* bg-gradient-to-r from-teal-400 to-sky-800 */}
             <div className='flex flex-col w-full h-[95vh] px-4 py-2 mt-16'>
 
