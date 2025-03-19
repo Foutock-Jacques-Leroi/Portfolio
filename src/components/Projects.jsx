@@ -19,7 +19,7 @@ const Projects = () => {
 
                 <div className='px-2 mt-6 grid md:grid-cols-2 mx-auto gap-4'>
 
-                    <div className='px-4 w-full h-[50vh] bg-code yo bg-center flex flex-col justify-end gap-6 rounded-lg mx-auto'>
+                    <div className='px-4 w-full h-[50vh] bg-code1 yo bg-center flex flex-col justify-end gap-6 rounded-lg mx-auto bg-no-repeat bg-cover'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>E-Commerce Website</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover1' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -37,7 +37,7 @@ const Projects = () => {
 
 
 
-                    <div className='px-4 w-full mx-auto h-[50vh] bg-code yo bg-center flex flex-col justify-end gap-6 rounded-lg '>
+                    <div className='px-4 w-full mx-auto h-[50vh] bg-code2 yo bg-center flex flex-col justify-end gap-6 rounded-lg bg-no-repeat bg-cover'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>CRUD System </h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover2' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -51,10 +51,10 @@ const Projects = () => {
                             </div>
                         </div>
 
-                    
+
                     </div>
 
-                    <div className='px-4 w-full h-[50vh] bg-code yo bg-center flex flex-col justify-end gap-6 rounded-lg mx-auto'>
+                    <div className='px-4 w-full h-[50vh] bg-code3 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg mx-auto'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>Dynamic Todo app</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover3' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </div>
 
 
-                    <div className='px-4 w-full mx-auto h-[50vh] bg-code yo bg-center flex flex-col justify-end gap-6 rounded-lg '>
+                    <div className='px-4 w-full mx-auto h-[50vh] bg-code4 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg '>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>Dynamic Timer App</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover4' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
