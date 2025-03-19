@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        codeImg: "url('7.jpg')",
+        codeImg: "url('../public/7.jpg')",
         popImg: "url('6.jpg')",
 
         blackOverlay: "linear-gradient(to bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.8) 100%)"

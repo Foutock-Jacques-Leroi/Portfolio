@@ -22,8 +22,12 @@ function AboutMe() {
                         critical thinking and thoughts. Also my hobby is reading or learning new domain, with that i play football in parallel.
                     </p>
                 </div>
-                <center><img className='rounded-xl shadow-md shadow-teal-300' src="6.jpg" alt="/" height={300} width={300}/></center>
+                <center><img className='rounded-xl shadow-md shadow-teal-300' src="5.jpg" alt="/" height={300} width={300}/></center>
             </div> 
+            {/* <button popoverTarget='my-popover'>open</button>
+            <div popover="auto" id='my-popover'>
+
+            </div> */}
         </div>
     )
 }

@@ -10,7 +10,7 @@ import React from 'react'
 
 const Letter = () => {
     return (
-        <div className='py-6 px-6 mx-6 my-4 font-sans text-white'>
+        <div className='py-6 px-6 mx-6 my-4 font-sans text-white' id='contact'>
             <div className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-green-400 m-6'>
                 <h1 className='text-center m-4 md:text-4xl sm:text-3xl text-2xl font-semibold'>Connect</h1>
             </div>
