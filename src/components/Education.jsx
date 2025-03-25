@@ -29,7 +29,7 @@ const Education = () => {
 
                     <div className='p-2 m-2 border-l-4 rounded-md border-cyan-500 grid justify-between'>
                         <div className='p-2 px-4 ml-[-10px] border-b-4 border-cyan-500 mb-4'>
-                            <p className='text-sm font-semibold'>2019-2020</p>
+                            <p className='text-sm font-semibold'>2021-2022</p>
                             <ReactTyped className='font-extrabold text-center md:text-4xl sm:text-3xl text-xl bg-clip-text bg-gradient-to-r from-white to-teal-600 text-transparent' startWhenVisible typeSpeed={40} strings={["GCE Advance Level"]} />
                         </div>
                         <p className='font-thin text-xl text-center'>Great Bilingual HighSchool Douala/Yassa</p>

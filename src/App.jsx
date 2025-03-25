@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe'
 import Education from './components/Education'
 import WorkExperience from './components/WorkExperience'
 import Projects from './components/Projects'
+import ScrollAnimation from './components/ScrollAnimation'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <WorkExperience />
       <Projects />
       <Letter />
+      <ScrollAnimation />
     </div>
 
 
