@@ -59,8 +59,8 @@ function AboutMe() {
                     className='m-4 text-center' >
                     <h1 className='md:text-6xl sm:text-5xl text-4xl sp font-extrabold bg-clip-text bg-gradient-to-l from-white to-green-400 text-transparent'>Introducing </h1>
                     <h1 className=' md:text-6xl mb-4 sm:text-5xl text-4xl sp font-extrabold bg-clip-text bg-gradient-to-l from-white to-teal-200 text-transparent'>Myself</h1>
-                    <p className='text-wrap px-4 md:text-xl sm:text-xl text-lg '><span>I</span> am a smart working guy who is in love with comprehensive and open minded ideas on intresting
-                        critical thinking and thoughts. Also my hobby is reading or learning new domain, with that i play football in parallel.
+                    <p className='text-wrap px-4 md:text-xl sm:text-xl text-lg '><span>I</span> am a Level 3 Software Engineer at IUT of Douala (Ndogbong) who is in love with comprehensive and open minded ideas on intresting
+                        critical thinking and thoughts. Also, my Hobbies are reading and learning new domain along with football because i really love the game.
                     </p>
                 </motion.div>
                 <center><motion.img
