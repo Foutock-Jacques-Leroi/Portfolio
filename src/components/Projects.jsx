@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 
 
 
@@ -13,13 +13,56 @@ const Projects = () => {
     return (
         <div className='min-w-full h-[230vh] box-border' id="project">
             <div className='text-white w-full h-screen px-2'>
-                <div className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-orange-400'>
+                <motion.div
+
+                    initial={{
+                        position: 'relative',
+                        top: '-200px',
+                        opacity: 0,
+                        scale: 0.3
+                    }}
+                    viewport={{ once: true }}
+                    whileInView={{
+                        scale: 1,
+                        opacity: 1,
+                        position: 'relative',
+                        top: '0px'
+
+                    }}
+
+                    transition={{
+                        duration: 1,
+                        ease: 'linear',
+                        delay: 0.2
+                    }}
+
+                    className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-orange-400'>
                     <h1 className='text-center m-4 md:text-4xl sm:text-3xl text-2xl font-semibold' >Projects</h1>
-                </div>
+                </motion.div>
 
                 <div className='px-2 mt-6 grid md:grid-cols-2 mx-auto gap-4'>
 
-                    <div className='px-4 w-full h-[50vh] bg-code1 yo bg-center flex flex-col justify-end gap-6 rounded-lg mx-auto bg-no-repeat bg-cover'>
+                    <motion.div
+
+                        viewport={{ once: true }}
+                        initial={{
+
+                            scale: 0.3
+                        }}
+
+                        whileInView={{
+                            scale: 1,
+
+
+                        }}
+
+                        transition={{
+                            duration: 1,
+                            ease: 'backInOut',
+
+                        }}
+
+                        className='px-4 w-full h-[50vh] bg-code1 yo bg-center flex flex-col justify-end gap-6 rounded-lg mx-auto bg-no-repeat bg-cover'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>E-Commerce Website</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover1' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -33,11 +76,31 @@ const Projects = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
 
 
 
-                    <div className='px-4 w-full mx-auto h-[50vh] bg-code2 yo bg-center flex flex-col justify-end gap-6 rounded-lg bg-no-repeat bg-cover'>
+                    <motion.div
+
+                        viewport={{ once: true }}
+                        initial={{
+
+                            scale: 0.3
+                        }}
+
+                        whileInView={{
+                            scale: 1,
+
+
+                        }}
+
+                        transition={{
+                            duration: 0.7,
+                            ease: 'backInOut',
+                            delay: 0.2
+                        }}
+
+                        className='px-4 w-full mx-auto h-[50vh] bg-code2 yo bg-center flex flex-col justify-end gap-6 rounded-lg bg-no-repeat bg-cover'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>CRUD System </h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover2' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -52,9 +115,29 @@ const Projects = () => {
                         </div>
 
 
-                    </div>
+                    </motion.div>
 
-                    <div className='px-4 w-full h-[50vh] bg-code3 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg mx-auto'>
+                    <motion.div
+
+                        viewport={{ once: true }}
+                        initial={{
+
+                            scale: 0.3
+                        }}
+
+                        whileInView={{
+                            scale: 1,
+
+
+                        }}
+
+                        transition={{
+                            duration: 0.7,
+                            ease: 'backInOut',
+                            delay: 0.4
+                        }}
+
+                        className='px-4 w-full h-[50vh] bg-code3 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg mx-auto'>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>Dynamic Todo app</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover3' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -68,10 +151,30 @@ const Projects = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
 
 
-                    <div className='px-4 w-full mx-auto h-[50vh] bg-code4 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg '>
+                    <motion.div
+
+                        viewport={{ once: true }}
+                        initial={{
+
+                            scale: 0.3
+                        }}
+
+                        whileInView={{
+                            scale: 1,
+
+
+                        }}
+
+                        transition={{
+                            duration: 0.7,
+                            ease: 'backInOut',
+                            delay: 0.6
+                        }}
+
+                        className='px-4 w-full mx-auto h-[50vh] bg-code4 yo bg-center bg-no-repeat bg-cover flex flex-col justify-end gap-6 rounded-lg '>
                         <h1 className='md:text-5xl sm:text-4xl text-3xl font-extrabold bg-clip-text bg-gradient-to-r from-white to-orange-600 text-transparent '>Dynamic Timer App</h1>
                         {/* className='gap-4 px-6 flex flex-col justify-center mx-auto h-[70vh] w-2/3 bg-gradient-to-br from-white to-orange-300 transition-all duration-900 rounded-xl' */}
                         <button popoverTarget='my-popover4' className='py-4 rounded-xl border-orange-300 hover:border-orange-400 hover:bg-orange-300 border text-white m-6 transition-all duration-900 text-xl font-semibold'> Details </button>
@@ -85,7 +188,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </motion.div>
                 </div>
 
             </div>

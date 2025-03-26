@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { } from 'react-icons'
+import { motion} from 'framer-motion'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { AiFillHome, AiFillProject, AiFillContacts, AiOutlineGithub, AiFillGithub, AiFillDashboard } from 'react-icons/ai'
 
@@ -24,7 +24,26 @@ const Navbar = () => {
             <div className='flex justify-between items-center m-4'>
                 <h1 className='font-extrabold md:text-5xl sm:text-4xl text-3xl font-sans-serif bg-clip-text bg-gradient-to-l from-slate-400 to-green-400 via-SSQ-400 text-transparent text-orange-300 ml-6'>FYJL.</h1>
 
-                <ul className='hidden md:flex font-bold text-lg [&_li]:cursor-pointer '>
+                <motion.ul
+                    viewport={{ once: true }}
+                    initial={{
+                        position: 'relative',
+                        top: '-60px',
+                        
+                    }}
+
+                    whileInView={{                
+                        position: 'relative',
+                        top: '0px'
+                    }}
+
+                    transition={{
+                        duration: 1,
+                        ease: 'linear',
+                        
+                    }}
+                    
+                    className='hidden md:flex font-bold text-lg [&_li]:cursor-pointer '>
 
                     <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-green-400 transition-all' href='#home'>Home <AiFillHome size={25} /></a></li>
                     <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href="#contact"> Contact <AiFillContacts size={25} /></a></li>
@@ -36,7 +55,7 @@ const Navbar = () => {
                             <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-black mx-auto'><a href='#aboutme'>Me</a></li>
                         </ul>
                     </li>
-                </ul>
+                </motion.ul>
 
 
                 <div onClick={handleNav} className='block md:hidden px-8'>
