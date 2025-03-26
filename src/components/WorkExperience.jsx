@@ -14,14 +14,14 @@ const WorkExperience = () => {
                         position: 'relative',
                         top: '-200px',
                         opacity: 0,
-                        scale:0.3
+                        scale: 0.3
                     }}
 
                     whileInView={{
                         scale: 1,
                         opacity: 1,
                         position: 'relative',
-                        top:'0px'
+                        top: '0px'
 
                     }}
 
@@ -30,7 +30,8 @@ const WorkExperience = () => {
                         ease: 'linear',
                         delay: 0.2
                     }}
-                    
+                    viewport={{ once: true }}
+
                     className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-white m-6 w-full ' >
 
                     <p className='md:text-5xl sm:text-4xl text-3xl sp font-extrabold'>Work</p>
@@ -58,6 +59,7 @@ const WorkExperience = () => {
                             ease: 'backInOut',
 
                         }}
+                        viewport={{ once: true }}
 
                         className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-green-400 p-20 text-black'>
                         <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold text-center'>Monetising TikTok Accounts</h1>
@@ -82,6 +84,7 @@ const WorkExperience = () => {
                             ease: 'backInOut',
                             delay: 0.3
                         }}
+                        viewport={{ once: true }}
 
                         className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-teal-400 p-20 text-black'>
                         <h1 className=' animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>Content Creation</h1>
@@ -106,6 +109,7 @@ const WorkExperience = () => {
                             ease: 'backInOut',
                             delay: 0.7
                         }}
+                        viewport={{ once: true }}
 
                         className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-teal-400 p-20 text-black'>
                         <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold'>E-Business</h1>
@@ -131,6 +135,8 @@ const WorkExperience = () => {
                             delay: 1.1
                         }}
 
+                        viewport={{ once: true }}
+
                         className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-slate-400 p-20 text-black'>
                         <h1 className='animate-bounce md:text-3xl sm:text-2xl text-xl font-bold text-center'>Internship At <span className='animate-bounce text-red-400 sp md:text-4xl sm:text-3xl text-2xl font-extrabold'>SKY NETWORK SERVICE</span></h1>
                     </motion.div>
@@ -148,7 +154,6 @@ const WorkExperience = () => {
                             opacity: 1,
                         }}
 
-                        viewport={{ once: true }}
 
                         transition={{
                             duration: 0.4,
@@ -156,6 +161,7 @@ const WorkExperience = () => {
                             delay: 1.5
                         }}
 
+                        viewport={{ once: true }}
 
                         className='sm:h-auto my-4 mx-4  shadow-md shadow-white flex items-center justify-center rounded-full bg-gradient-to-l from-white to-purple-400 p-20 text-black'>
                         <h1 className='md:text-3xl sm:text-2xl text-xl font-bold animate-bounce text-center'>Worker In A Hardware Store</h1>
