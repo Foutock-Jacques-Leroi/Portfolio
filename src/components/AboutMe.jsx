@@ -34,7 +34,7 @@ function AboutMe() {
                     delay: 0.2
                 }}
 
-                className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-green-400 m-6'>
+                className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] m-6 border-b-green-400'>
                 <h1 className='text-center m-4 md:text-4xl sm:text-3xl text-2xl font-semibold'>About Me</h1>
             </motion.div>
             <div className='text-white font-sans py-4 px-6 grid sm:grid-cols-2 grid-cols-1 w-full sm:w-[80%] mx-auto justify-center items-center '>

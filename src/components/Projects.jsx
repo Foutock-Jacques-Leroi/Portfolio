@@ -36,7 +36,7 @@ const Projects = () => {
                         delay: 0.2
                     }}
 
-                    className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-orange-400'>
+                    className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] m-6 border-b-orange-400'>
                     <h1 className='text-center m-4 md:text-4xl sm:text-3xl text-2xl font-semibold' >Projects</h1>
                 </motion.div>
 

@@ -35,7 +35,7 @@ const Technologies = () => {
                     }}
                     viewport={{ once: true }}
 
-                    className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] border-b-green-400'>
+                    className='md:w-[30%] sm:w-[70%] mx-auto border-b-[3px] m-6 border-b-green-400'>
                     <h1 className='text-center m-4 md:text-4xl sm:text-3xl text-2xl font-semibold' >Technologies</h1>
                 </motion.div>
                 <div className="m-10 w-full">
