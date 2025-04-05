@@ -39,8 +39,8 @@ const Letter = () => {
             </motion.div>
             <div className='max-w-full grid md:grid-cols-2 gap-8 '>
                 <div className='text-center'>
-                    <h1 className='font-bold md:text-5xl sm:text-4xl text-3xl '>Any Tips & Questions About this ?</h1>
-                    <p className='font-semibold md:text-3xl sm:text-2xl text-xl'>Do you have useful opportunities or any offers for Me ?</p>
+                    <h1 className='font-bold md:text-5xl sm:text-4xl text-3xl '>Any Tips & Questions About My Portfolio ?</h1>
+                    <p className='font-semibold md:text-3xl sm:text-2xl text-xl'>I'm Ready To Offer My Services ?<br /> Just Contact Me !</p>
                 </div>
 
                 <div className='w-full flex flex-col justify-center items-center '>

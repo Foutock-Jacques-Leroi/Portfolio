@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { AiFillHome, AiFillProject, AiFillContacts, AiOutlineGithub, AiFillGithub, AiFillDashboard } from 'react-icons/ai'
 
@@ -29,10 +29,10 @@ const Navbar = () => {
                     initial={{
                         position: 'relative',
                         top: '-60px',
-                        
+
                     }}
 
-                    whileInView={{                
+                    whileInView={{
                         position: 'relative',
                         top: '0px'
                     }}
@@ -40,9 +40,9 @@ const Navbar = () => {
                     transition={{
                         duration: 1,
                         ease: 'linear',
-                        
+
                     }}
-                    
+
                     className='hidden md:flex font-bold text-lg [&_li]:cursor-pointer '>
 
                     <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-green-400 transition-all' href='#home'>Home <AiFillHome size={25} /></a></li>
@@ -63,20 +63,20 @@ const Navbar = () => {
                 </div>
 
 
-                <div className={nav ? 'fixed top-0 left-0 w-[70%] min-h-[100vh] border-r border-r-sky-400 bg-slate-900 duration-500 ' : 'fixed left-[-100%] duration-700'}>
+                <div className={nav ? 'fixed z-index-[100] top-0 left-0 w-[70%] min-h-[100vh] border-r border-r-sky-400 bg-slate-900 duration-500 ' : 'fixed left-[-100%] duration-700'}>
 
                     <h1 className='font-extrabold py-8 px-10 md:text-4xl sm:text-3xl text-2xl font-sans-serif bg-clip-text bg-gradient-to-l from-slate-400 to-green-400 via-teal-400 text-transparent'>FYJL.</h1>
 
                     <ul className='font-bold block text-lg px-12  [&_li]:focus:text-sky-500 cursor-pointer'>
 
-                        <li className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 border-l-green-400 transition-all'><a href='#home'>Home <AiFillHome size={25} /></a></li>
-                        <li className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-sky-400'>Contact <AiFillContacts size={25} /></li>
-                        <li className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-orange-400'>Projects <AiFillProject size={25} /></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href='#home'>Home <AiFillHome size={25} /></a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href='#contact'>Contact <AiFillContacts size={25} /></a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-orange-400' href='projects'>Projects <AiFillProject size={25} /></a></li>
                         <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-white'>About <AiFillDashboard size={25} />
                             <ul className={about ? 'absolute flex flex-col  top-10 p-2 left-0 h-auto w-fit [&_li]:ml-8 transition-all duration-900' : 'fixed left-[-500px] top-18'} >
-                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'><a href='#education'>Education</a></li>
-                                <li onClick={() => handleAbout()} className='p-1 border-b-[3px] border-white mx-auto'><a href='#workexperience'>Work Experience</a></li>
-                                <li onClick={() => handleAbout()} className='p-1 m-2 border-b-[3px] border-white mx-auto'><a href='#aboutme'>Me</a></li>
+                                <li onClick={() => { handleAbout(), handleNav() }} className='p-1 m-2 border-b-[3px] border-white mx-auto'><a href='#education'>Education</a></li>
+                                <li onClick={() => { handleAbout(), handleNav() }} className='p-1 border-b-[3px] border-white mx-auto'><a href='#workexperience'>Work Experience</a></li>
+                                <li onClick={() => { handleAbout(), handleNav() }} className='p-1 m-2 border-b-[3px] border-white mx-auto'><a href='#aboutme'>Me</a></li>
                             </ul>
                         </li>
 
