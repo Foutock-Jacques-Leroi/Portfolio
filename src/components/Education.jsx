@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
 import { motion } from 'framer-motion'
-
+import CV from '../components/CV'
 
 
 
@@ -123,6 +123,10 @@ const Education = () => {
                         <h1 className='text-center'><span className='font-bold'>Speciality</span>: Software Engineering</h1>
                         <h1 className='text-center'><span className='font-bold'>Grade</span>: Upper Credit</h1>
                     </motion.div>
+                    <div className=' p-3 m-2'>
+                        <CV />
+                    </div>
+
                     <div className='flex w-full justify-center items-center py-2 m-2 '>
                         <marquee direction="left" className='p-4'>
                             <h1 className='font-extrabold text-center md:text-4xl sm:text-3xl text-xl bg-clip-text bg-gradient-to-t from-white to-orange-600 text-transparent'> Bachelor Degree Loading ... </h1>

@@ -23,6 +23,7 @@ function App() {
       <Projects />
       <Letter />
       <ScrollAnimation />
+
     </div>
 
 

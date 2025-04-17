@@ -20,7 +20,7 @@ const Navbar = () => {
         setAbout(!about)
     }
     return (
-        <div className='fixed top-0 w-full h-auto text-white bg-sky-900 bg-opacity-55 border-b border-b-white m-0 p-0 mx-auto'>
+        <div className='fixed top-0 w-full h-auto text-white bg-sky-900 bg-opacity-55 border-b border-b-white m-0 p-0 mx-auto opress'>
             <div className='flex justify-between items-center m-4'>
                 <h1 className='font-extrabold md:text-5xl sm:text-4xl text-3xl font-sans-serif bg-clip-text bg-gradient-to-l from-slate-400 to-green-400 via-SSQ-400 text-transparent text-orange-300 ml-6'>FYJL.</h1>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div className={nav ? 'fixed z-index-[100] top-0 left-0 w-[70%] min-h-[100vh] border-r border-r-sky-400 bg-slate-900 duration-500 ' : 'fixed left-[-100%] duration-700'}>
+                <div className={nav ? 'opress fixed z-index-[100] top-0 left-0 w-[70%] min-h-[100vh] border-r border-r-sky-400 bg-slate-900 duration-500 ' : 'fixed left-[-100%] duration-700'}>
 
                     <h1 className='font-extrabold py-8 px-10 md:text-4xl sm:text-3xl text-2xl font-sans-serif bg-clip-text bg-gradient-to-l from-slate-400 to-green-400 via-teal-400 text-transparent'>FYJL.</h1>
 
