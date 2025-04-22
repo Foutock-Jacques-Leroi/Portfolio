@@ -19,7 +19,7 @@ function Contact() {
             .then(
                 () => {
                     console.log('SUCCESS!');
-                    toast.success("E-Mail Successufully Send !")
+                    toast.success("E-Mail Successfully Send !")
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
