@@ -8,6 +8,8 @@ import Education from './components/Education'
 import WorkExperience from './components/WorkExperience'
 import Projects from './components/Projects'
 import ScrollAnimation from './components/ScrollAnimation'
+import Contact from './components/Contact'
+
 
 function App() {
 
@@ -22,8 +24,8 @@ function App() {
       <WorkExperience />
       <Projects />
       <Letter />
+      {/* <Contact /> */}
       <ScrollAnimation />
-
     </div>
 
 
