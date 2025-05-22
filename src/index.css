@@ -30,6 +30,10 @@ html {
     border-image: fill 9 linear-gradient(rgba(0, 0, 0, 0.2), #000000);
 }
 
+.clip{
+    clip-path: circle(40% at 50% 50%);
+}
+
 .sp {
     font-family: freestyle script;
     letter-spacing: 3px;

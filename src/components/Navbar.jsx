@@ -45,10 +45,10 @@ const Navbar = () => {
 
                     className='hidden md:flex font-bold text-lg [&_li]:cursor-pointer '>
 
-                    <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-green-400 transition-all' href='#home'>Home <AiFillHome size={25} /></a></li>
-                    <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href="#contact"> Contact <AiFillContacts size={25} /></a></li>
-                    <li> <a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-orange-400' href="#project"> Projects <AiFillProject size={25} /></a></li>
-                    <li onClick={() => { handleAbout() }} className='relative flex gap-1 items-center py-3 mx-6 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white'>About <AiFillDashboard size={25} />
+                    <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-green-400 transition-all' href='#home'> <AiFillHome size={25} /> Home</a></li>
+                    <li ><a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href="#contact"> <AiFillContacts size={25} /> Contact</a></li>
+                    <li> <a className='flex gap-1 items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-orange-400' href="#project"> <AiFillProject size={25} />Projects</a></li>
+                    <li onClick={() => { handleAbout() }} className='relative flex gap-1 items-center py-3 mx-6 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white'><AiFillDashboard size={25} /> About
                         <ul className={about ? 'absolute flex flex-col bg-sky-900 bg-opacity-80 text-white top-12 p-2 rounded-xl left-[-3rem] h-auto w-[200%] [&_li]:ml-2 transition-all duration-400' : 'fixed left-[-500px] top-18'} >
                             <li onClick={() => handleAbout()} className='p-1 m-1 border-b-[3px] border-black mx-auto'><a href='#education'>Education</a></li>
                             <li onClick={() => handleAbout()} className='p-1 border-b-[3px] border-black mx-auto'><a href='#workexperience'>Work Experience</a></li>
@@ -69,10 +69,10 @@ const Navbar = () => {
 
                     <ul className='font-bold block text-lg px-12  [&_li]:focus:text-sky-500 cursor-pointer'>
 
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-green-400' href='#home'>Home <AiFillHome size={25} className='max-sm:size-25' /></a></li>
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href='#contact'>Contact <AiFillContacts size={25} className='max-sm:size-25' /></a></li>
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-orange-400' href='#project'>Projects <AiFillProject size={25} className='max-sm:size-25' /></a></li>
-                        <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-white'>About <AiFillDashboard size={25} />
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-green-400' href='#home'> <AiFillHome size={25} /> Home</a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm  hover:border-l-[3px] duration-200 transition-all border-l-sky-400' href='#contact'> <AiFillContacts size={25} /> Contact</a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-orange-400' href='#project'> <AiFillProject size={25}  /> Projects</a></li>
+                        <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] rounded-sm hover:border-l-[3px] duration-200 transition-all border-l-white'> <AiFillDashboard size={25} /> About
                             <ul className={about ? 'absolute flex flex-col  top-10 p-2 left-0 h-auto w-fit [&_li]:ml-8 transition-all duration-900' : 'fixed left-[-500px] top-18'} >
                                 <li onClick={() => { handleAbout(), handleNav() }} className='p-1 m-2 border-b-[3px] border-white mx-auto'><a href='#education'>Education</a></li>
                                 <li onClick={() => { handleAbout(), handleNav() }} className='p-1 border-b-[3px] border-white mx-auto'><a href='#workexperience'>Work Experience</a></li>
